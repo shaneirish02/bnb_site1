@@ -24,17 +24,3 @@ $router->post('/users', 'UserController@add');
 $router->get('/users/{id}', 'UserController@show');
 $router->put('/users/{id}', 'UserController@update');
 $router->delete('/users/{id}', 'UserController@delete');
-
-// Library routes
-$router->get('/libraries', 'LibraryController@index');
-$router->get('/libraries/{id}', 'LibraryController@show');
-$router->post('/libraries', 'LibraryController@add');
-$router->put('/libraries/{id}', 'LibraryController@update');
-$router->delete('/libraries/{id}', 'LibraryController@delete');
-
-// Review routes
-$router->get('/reviews', 'ReviewController@index');
-$router->get('/reviews/{id}', 'ReviewController@show');
-$router->post('/reviews', 'ReviewController@add');
-$router->put('/reviews/{id}', 'ReviewController@update');
-$router->delete('/reviews/{id}', 'ReviewController@delete');
