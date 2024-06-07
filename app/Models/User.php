@@ -9,7 +9,7 @@ class User extends Model {
     protected $table = 'users';
 
     protected $fillable = [
-        'user_id', 'name', 'email', 'password', 'created_at', 'updated_at'
+        'user_id', 'name', 'password', 'email', 'created_at', 'updated_at'
     ];
 
     protected $primaryKey = 'user_id';
